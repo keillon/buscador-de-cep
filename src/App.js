@@ -50,7 +50,10 @@ function App () {
           </span>
         </main>
       )}
+
+      <footer className='footer'>Desenvolvido por Keillon</footer>
     </div>
+
   )
 }
 

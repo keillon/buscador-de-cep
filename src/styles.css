@@ -116,6 +116,14 @@
     font-size: 1.2rem;
 }
 
+.footer{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+}
+
 @media (max-width: 620px){
     .main{
         width: 80%;
