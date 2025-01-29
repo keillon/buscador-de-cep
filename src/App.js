@@ -9,13 +9,14 @@ function App () {
   async function handleSearch () {
     if (input === '') {
       alert('Digite um cep para pesquisar')
+      return;
     }
 
     try {
       const resp = await api.get(`${input}/json`)
       setCep(resp.data)
       setInput('')
-    } catch (error) {
+    } catch{
       alert('Ops.. digite um CEP válido')
       setInput('')
     }
